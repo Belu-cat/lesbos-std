@@ -25,7 +25,7 @@ var font_linelen = 0;
 
 %define FONT_CALCULATE_WIDTH_FROM_LENGTH(LENGTH) \
     (LENGTH*(FONT_WIDTH+2+font_char_spacing)-(2+font_char_spacing))*font_scale
-%define FONT_CALCULATE_WIDTH(TEXT) FONT_CALCULATE_WIDTH_FROM_LENGTH(length($TEXT))
+%define FONT_CALCULATE_WIDTH(TEXT) FONT_CALCULATE_WIDTH_FROM_LENGTH(length(TEXT))
 
 proc font_render_char char {
     switch_costume $char;
