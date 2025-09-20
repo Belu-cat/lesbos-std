@@ -1,3 +1,2 @@
 # lesbos-std
-Please see the original: [https://github.com/goboscript/std](goboscript/std)
-
+Please see the original: [goboscript/std](https://github.com/goboscript/std)
