@@ -1,0 +1,6 @@
+name = "lesbos-std"
+version = "0.1.0"
+[[features]]
+name = "core"
+files = [ "main.gs",]
+
